@@ -74,7 +74,6 @@ repos:
   - id: mypy
     args: ["--ignore-missing-imports", "--scripts-are-modules", "--show-traceback"]
     additional_dependencies:
-    - django-stubs @ git+https://github.com/typeddjango/django-stubs.git@36002a20874a4f1d5671e2f784c7257eb50fe691
-    - django-stubs-ext @ git+https://github.com/typeddjango/django-stubs.git@36002a20874a4f1d5671e2f784c7257eb50fe691#subdirectory=django_stubs_ext
+    - django-stubs==1.14.0
     - mysqlclient
-    - pytest==7.1.2
+    - pytest==7.2.1

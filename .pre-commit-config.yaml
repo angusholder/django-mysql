@@ -74,6 +74,6 @@ repos:
   - id: mypy
     args: ["--ignore-missing-imports", "--scripts-are-modules", "--show-traceback"]
     additional_dependencies:
-    - django-stubs==1.14.0
+    - django-stubs==1.16.0
     - mysqlclient
     - pytest==7.2.1
